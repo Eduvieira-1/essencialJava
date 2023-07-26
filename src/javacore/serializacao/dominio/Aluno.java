@@ -7,6 +7,7 @@ import java.io.Serializable;
 
 
 public class Aluno implements Serializable {
+    private static final long serialVersionUID = -3670025743683781453L;
     private Long id;
     private String nome;
     private transient String password;

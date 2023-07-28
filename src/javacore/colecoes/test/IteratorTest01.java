@@ -4,11 +4,12 @@ import javacore.colecoes.dominio.Manga;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 public class IteratorTest01 {
     public static void main(String[] args) {
-        List<Manga> mangas = new ArrayList<>(6);
+        List<Manga> mangas = new LinkedList<>();
         mangas.add(new Manga(1L,"the originals", 100.25, 0));
         mangas.add(new Manga(3L,"the big bang theory", 14.85, 1));
         mangas.add(new Manga(2L,"the office", 15.23, 2));

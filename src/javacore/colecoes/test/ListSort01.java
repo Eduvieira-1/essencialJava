@@ -32,6 +32,6 @@ public class ListSort01 {
 
         System.out.println(money);
 
-        new Manga(null, null, 23.23);
+//        new Manga(null, null, 23.23);
     }
 }

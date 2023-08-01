@@ -1,9 +1,7 @@
-package javacore.Generics.test;
+package javacore.generics.test;
 
-import javacore.Generics.dominio.Barco;
-import javacore.Generics.dominio.Carro;
-import javacore.Generics.service.BarcoRentavelService;
-import javacore.Generics.service.CarroRentavelService;
+import javacore.generics.dominio.Barco;
+import javacore.generics.service.BarcoRentavelService;
 
 public class ClasseGenericaTest02 {
     public static void main(String[] args) {

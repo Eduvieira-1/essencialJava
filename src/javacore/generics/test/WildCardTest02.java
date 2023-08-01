@@ -1,4 +1,4 @@
-package javacore.Generics.test;
+package javacore.generics.test;
 
 
 import java.util.List;

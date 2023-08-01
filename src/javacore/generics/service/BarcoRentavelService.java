@@ -1,6 +1,6 @@
-package javacore.Generics.service;
+package javacore.generics.service;
 
-import javacore.Generics.dominio.Barco;
+import javacore.generics.dominio.Barco;
 
 import java.util.ArrayList;
 import java.util.List;

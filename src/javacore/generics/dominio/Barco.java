@@ -1,4 +1,4 @@
-package javacore.Generics.dominio;
+package javacore.generics.dominio;
 
 public class Barco {
     private String nome;

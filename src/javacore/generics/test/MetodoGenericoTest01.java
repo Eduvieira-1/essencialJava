@@ -1,8 +1,7 @@
-package javacore.Generics.test;
+package javacore.generics.test;
 
-import javacore.Generics.dominio.Barco;
+import javacore.generics.dominio.Barco;
 
-import java.util.Comparator;
 import java.util.List;
 
 public class MetodoGenericoTest01 {

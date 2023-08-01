@@ -1,4 +1,4 @@
-package javacore.Generics.test;
+package javacore.generics.test;
 
 abstract class Animal{
     public abstract void consulta();

@@ -1,6 +1,4 @@
-package javacore.Generics.service;
-
-import javacore.Generics.dominio.Carro;
+package javacore.generics.service;
 
 import java.util.List;
 

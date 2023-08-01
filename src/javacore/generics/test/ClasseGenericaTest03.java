@@ -1,9 +1,8 @@
-package javacore.Generics.test;
+package javacore.generics.test;
 
-import javacore.Generics.dominio.Barco;
-import javacore.Generics.dominio.Carro;
-import javacore.Generics.service.BarcoRentavelService;
-import javacore.Generics.service.RentalService;
+import javacore.generics.dominio.Barco;
+import javacore.generics.dominio.Carro;
+import javacore.generics.service.RentalService;
 
 import java.util.ArrayList;
 import java.util.List;

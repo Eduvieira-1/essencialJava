@@ -3,6 +3,7 @@ package javacore.classesinternas.test;
 public class OuterClassesTest01 {
     private String name = "Dudu";
 
+    //Nested
     class Inner{
         public void printOuterClassAttribute(){
             System.out.println(name);

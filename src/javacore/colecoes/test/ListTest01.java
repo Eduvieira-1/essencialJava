@@ -11,10 +11,12 @@ public class ListTest01 {
         nomes.add("Eduardo");
         nomes.add("cortella");
         nomes.add("cortella");
-        nomes2.add("miranha");
-        nomes2.add("miranha");
-        nomes2.add("sla");
+        nomes2.add("nomes2_test_1");
+        nomes2.add("nomes2_test_2");
+        nomes2.add("nomes2_test_3");
         nomes.remove("william");
+
+        System.out.println("--------------------");
         nomes.addAll(nomes2);
 
         for (Object nome : nomes){

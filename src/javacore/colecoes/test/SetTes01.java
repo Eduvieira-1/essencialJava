@@ -16,7 +16,6 @@ public class SetTes01 {
         mangas.add(new Manga(2L,"the office", 15.23, 2));
         mangas.add(new Manga(4L,"the witcher", 45.85, 0));
         mangas.add(new Manga(4L,"the witcher", 45.85, 0));
-
         for (Manga manga : mangas) {
             System.out.println(manga);
         }

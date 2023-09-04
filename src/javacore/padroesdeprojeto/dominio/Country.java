@@ -1,4 +1,5 @@
 package javacore.padroesdeprojeto.dominio;
 
-public class Pessoa {
+public enum Country {
+    BRAZIL, USA
 }

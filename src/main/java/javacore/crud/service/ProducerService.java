@@ -16,7 +16,6 @@ public class ProducerService {
             case 2 -> delete();
             case 3 -> save();
             case 4 -> update();
-            default -> throw new IllegalArgumentException("Not a valid option");
         }
     }
 
@@ -52,8 +51,9 @@ public class ProducerService {
             return;
         }
         Producer producerFromDb = producerOptional.get();
+        System.out.println("test");
         System.out.println("Producer found " + producerFromDb);
-        System.out.println("Type the new name or enter to keep the same");
+        System.out.println("Type the new name or enter to keep the same:");
         String name = SC.nextLine();
         name = name.isEmpty() ? producerFromDb.getName() : name;
 
